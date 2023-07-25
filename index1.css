@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+nav{
+
+    background-color: rgb(43, 15, 42);
+    color: aliceblue;
+
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+nav ul{
+    list-style-type: none;
+}
+#heading
+{
+    font-size: 50px;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+} 
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+.leftContainer{
+
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.box:hover{
+    background-color: rgb(230, 185, 238);
+}
+
+.rightContainer{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img{
+    display: none;
+}
+
+.bl-0{
+    border-left: 0px;
+}
+.br-0{
+    border-right: 0px;
+}
+.bt-0{
+    border-top: 0px;
+}
+.bb-0{
+    border-bottom: 0px;
+}
+#reset{
+    width: 60px;
+}
